@@ -1,0 +1,1 @@
+for (int k = j; k < n; k++) {
