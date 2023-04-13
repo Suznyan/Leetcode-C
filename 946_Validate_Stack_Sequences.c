@@ -24,8 +24,7 @@ int Stack_pop(Stack *S) {
 }
 int Stack_peek(Stack *S) {
     if (Stack_empty(S)) return INT_MIN;
-    int temp = S->val[S->top];
-    return temp;
+    return S->val[S->top];
 }
 void Stack_destroy(Stack *S) { free(S->val); }
 
